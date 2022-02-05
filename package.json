@@ -1,0 +1,16 @@
+{
+  "name": "nodebot",
+  "version": "0.0.1",
+  "description": "bot written in node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "author": "Umidjon Tukhtaev",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "telegraf": "^4.7.0"
+  }
+}
